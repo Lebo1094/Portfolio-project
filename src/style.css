@@ -10,7 +10,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   margin-left: 40px;
 }
@@ -50,6 +51,7 @@ h3 {
 img {
   margin-top: 40px;
 }
+
 i {
   width: 40px;
   height: 40px;
@@ -63,6 +65,28 @@ p {
   margin: 30px 100px;
 }
 
+.heading {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.description {
+  font-weight: medium;
+  font-size: 20px;
+  color: var(--var-secondary-color);
+  margin: 0;
+}
+
+.project-link {
+  background: blueviolet;
+  color: white;
+}
+
+.project-link:hover {
+  background: #6c757d;
+}
+
 @media (max-width: 1024px) {
   body {
     text-align: center;
@@ -74,6 +98,10 @@ p {
   }
   h3 {
     margin-left: 0;
+  }
+
+  h4 {
+    margin-top: 30px;
   }
 
   .about-h1 {
