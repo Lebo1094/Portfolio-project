@@ -1,4 +1,47 @@
+:root {
+  --var-primary-color: #f3f3f0;
+  --var-secondary-color: #828282;
+}
+
 body {
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  background: var(--var-primary-color);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-left: 40px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 40;
+  color: var(--var-secondary-color);
+}
+
+h3 {
+  margin-top: 50px;
+  font-weight: medium;
+  font-size: 48px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 20px 250px;
+  transition: 0.15s ease-in-out;
+}
+
+.btn:hover {
+  background: blueviolet;
+}
+
+img {
+  margin-top: 40px;
 }
