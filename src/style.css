@@ -32,6 +32,11 @@ h3 {
   font-size: 48px;
 }
 
+.about-h1 {
+  font-weight: bold;
+  font-size: 96px;
+}
+
 .btn {
   display: inline-block;
   margin: 20px 250px;
@@ -50,6 +55,14 @@ i {
   height: 40px;
 }
 
+p {
+  text-align: justify;
+  font-weight: medium;
+  font-size: 36;
+  line-height: 2;
+  margin: 30px 100px;
+}
+
 @media (max-width: 1024px) {
   body {
     text-align: center;
@@ -57,16 +70,25 @@ i {
 
   h1,
   h2 {
-    margin: 0;
+    margin: 10px;
   }
   h3 {
     margin-left: 0;
+  }
+
+  .about-h1 {
+    font-size: 45px;
   }
 
   .btn {
     display: block;
     width: 80%;
     margin: 20px auto;
+  }
+
+  p {
+    margin: 20px 0;
+    font-size: 22px;
   }
   i {
     margin-top: 20px;
