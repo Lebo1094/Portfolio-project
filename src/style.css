@@ -33,6 +33,7 @@ h3 {
 }
 
 h4 {
+  color: var(--var-secondary-color);
   text-align: center;
 }
 
@@ -65,8 +66,12 @@ img {
 }
 
 i {
-  width: 40px;
-  height: 40px;
+  color: var(--var-secondary-color);
+  padding: 40px;
+}
+
+i:hover {
+  color: blue;
 }
 
 p {
@@ -75,6 +80,16 @@ p {
   font-size: 36;
   line-height: 2;
   margin: 30px 100px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  margin: 30px;
+}
+
+footer i {
+  font-size: 20px;
 }
 
 .heading {
@@ -100,10 +115,8 @@ p {
 }
 
 .contact-icon {
-  display: block;
   text-align: center;
-  font-size: 10px;
-  margin: 30px;
+  font-size: 40px;
 }
 
 .project-link:hover {
