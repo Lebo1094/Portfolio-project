@@ -27,9 +27,10 @@ h2 {
 }
 
 h3 {
+  color: var(--var-secondary-color);
   margin-top: 50px;
   font-weight: medium;
-  font-size: 48px;
+  font-size: 36px;
 }
 
 h4 {
@@ -38,16 +39,23 @@ h4 {
 }
 
 .about-h1 {
+  color: black;
   padding-top: 40px;
   font-weight: bold;
   font-size: 96px;
 }
 
 .work-h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 64px;
   padding-top: 40px;
 }
 
 .contact-h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 64px;
   padding-top: 40px;
 }
 
@@ -133,6 +141,7 @@ footer i {
     margin: 10px;
   }
   h3 {
+    font-size: 30px;
     margin-left: 0;
   }
 
